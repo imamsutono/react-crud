@@ -18,7 +18,7 @@ const LoginPage = () => {
 
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-          Masuk untuk kelola produk
+          Sign in to your account
         </h2>
       </div>
 
@@ -27,7 +27,7 @@ const LoginPage = () => {
           <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                Alamat Email
+                Email address
               </label>
               <div className="mt-1">
                 <input
@@ -45,7 +45,7 @@ const LoginPage = () => {
 
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                Kata Sandi
+                Password
               </label>
               <div className="mt-1">
                 <input
@@ -66,7 +66,7 @@ const LoginPage = () => {
                 type="submit"
                 className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
               >
-                Masuk
+                Sign In
               </button>
             </div>
           </form>
